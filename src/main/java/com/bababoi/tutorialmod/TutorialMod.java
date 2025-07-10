@@ -1,5 +1,6 @@
 package com.bababoi.tutorialmod;
 
+import com.bababoi.tutorialmod.block.ModBlocks;
 import com.bababoi.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
